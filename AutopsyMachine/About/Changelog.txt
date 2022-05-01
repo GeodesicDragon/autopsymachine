@@ -1,0 +1,13 @@
+Version 1.1.4 (May 1st 2022)
+
+* Increased power consumption of the autopsy machine to 1000W (was 400).
+* The autopsy machine now provides meat and leather after finishing its task.
+	* This was achieved by a patch which slightly tweaked the RecipeDefs of the autopsy table. So, if you were to perform an autopsy at said table, you'd also get meat and leather. I couldn't think of any other way to get it working.
+* The autopsy machine can now be overclocked to increase working speed and range.
+	* Increasing speed (by 1 to 3) uses an extra 250W of power per step.
+	* Increasing range (by 1 to 4) uses an extra 200W of power per step.
+* Edited name of mod (seen in mod list).
+
+Version 1.0.1 (May 1st 2022)
+
+* Initial Release

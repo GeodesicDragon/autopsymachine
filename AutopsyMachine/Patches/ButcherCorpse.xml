@@ -1,0 +1,12 @@
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/RecipeDef[defName="AutopsyBasic" or defName="AutopsyAdvanced" or defName="AutopsyGlitterworld" or defName="AutopsyAnimal"]</xpath>
+	<value>
+		<specialProducts>
+			<li>Butchery</li>
+		</specialProducts>
+	</value>
+</Operation>
+
+</Patch>
