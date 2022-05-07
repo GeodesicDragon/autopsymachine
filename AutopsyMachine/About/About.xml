@@ -25,9 +25,13 @@
 		<li>Smuffle.HarvestOrgansPostMortem</li>
 		<li>spdskatr.projectrimfactory</li>
 	</loadAfter>
-	<description>Adds a machine which can perform autopsies.
+	<description><![CDATA[<b>ABOUT</b>
 	
-It isn't much to look at - probably because whoever designed it lacks any artistic talent - but it works quicker than a human doctor and never needs to take a break; not only that, it will even butcher the corpse when it has finished.
+Adds a machine which can perform autopsies. It works quicker than a human doctor and never needs to take a break; not only that, it will even butcher the corpse when it has finished.
 
-(Credit to the PRF team for the preview image; I just slapped text on it because I can't draw.)</description>
+<b>CREDITS</b>
+
+PRF Team: For their mod and the preview image background
+Smuffle and dna: For Harvest Organs Post Mortem
+JuryOfYourFears: Autopsy machine texture]]></description>
 </ModMetaData>

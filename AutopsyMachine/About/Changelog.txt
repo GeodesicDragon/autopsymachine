@@ -1,3 +1,14 @@
+Version 1.1.8 (May 7th 2022)
+
+* Updated description to remove joke reference to (my) previous bad art.
+* Building an autopsy machine can now be done after researching basic autopsies.
+
+Version 1.1.6 (May 7th 2022)
+
+* The autopsy machine now has a shiny new texture, courtesy of JuryOfYourFears.
+	* Has two different textures: one for when the machine is idle, and one for when it is working.
+* Reduced the amount of steel needed to build an autopsy machine to 50 (was 100).
+
 Version 1.1.4 (May 1st 2022)
 
 * Increased power consumption of the autopsy machine to 1000W (was 400).

@@ -14,7 +14,7 @@
     <description>A machine which can perform autopsies faster than a human doctor; it will even butcher the corpse when its done.\n\n(The white cell is the input, and the yellow cell is the output.)</description>
     <uiIconScale>0.7</uiIconScale>
     <graphicData>
-      <texPath>Things/Buildings/AutopsyMachine</texPath>
+      <texPath>Things/Buildings/AutopsyMachineoff</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <statBases>
@@ -27,7 +27,7 @@
       <PRF_RoboticArm>2</PRF_RoboticArm>
       <PRF_MachineFrame_II>1</PRF_MachineFrame_II>
       <PRF_ElectronicChip_II>1</PRF_ElectronicChip_II>
-      <Steel>100</Steel>
+      <Steel>50</Steel>
     </costList>
 	<thingClass>ProjectRimFactory.SAL3.Things.Assemblers.Building_SimpleAssembler</thingClass>
 	<designatorDropdown>PRF_AutopsyGroup</designatorDropdown>
@@ -57,7 +57,7 @@
 		<canPlaceOverWall>true</canPlaceOverWall>      <!-- To be able to build as walls -->
     </building>
     <researchPrerequisites>
-		<li>GlitterworldAutopsy</li>
+		<li>BasicAutopsy</li>
     </researchPrerequisites>
     <modExtensions>
       <li Class="ProjectRimFactory.SAL3.Exposables.AssemblerDefModExtension">
@@ -67,6 +67,11 @@
         <workSpeedBaseFactor>2</workSpeedBaseFactor>
         <drawStatus>true</drawStatus>
         <doEffect>true</doEffect>
+        <workingGraphicData>
+          <graphicClass>Graphic_Single</graphicClass>
+          <texPath>Things/Buildings/AutopsyMachine</texPath>
+          <drawSize>(2,2)</drawSize>
+        </workingGraphicData>
       </li>
       <li Class="ProjectRimFactory.Common.ModExtension_Skills">
         <SkillUsage>ThisOverrides</SkillUsage>
