@@ -1,0 +1,28 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Harvest Organs Post Mortem</li>
+		</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="AutopsyBasic" or defName="AutopsyAdvanced" or defName="AutopsyGlitterworld" or defName="AutopsyAnimal"]</xpath>
+						<value>
+							<specialProducts>
+								<li>Butchery</li>
+							</specialProducts>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/recipes</xpath>
+						<value>
+							<li>AutopsyBasic</li>
+							<li>AutopsyAdvanced</li>
+							<li>AutopsyGlitterworld</li>
+							<li>AutopsyAnimal</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+	</Operation>
+</Patch>

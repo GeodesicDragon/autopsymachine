@@ -11,23 +11,27 @@
 	</supportedVersions>
 	<modDependencies>
 		<li>
-			<packageId>Smuffle.HarvestOrgansPostMortem</packageId>
-			<displayName>Harvest Organs Post Mortem</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/1204502413</steamWorkshopUrl>
-		</li>
-		<li>
 			<packageId>spdskatr.projectrimfactory</packageId>
 			<displayName>Project RimFactory Revived</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2033979700</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>Smuffle.HarvestOrgansPostMortem</li>
 		<li>spdskatr.projectrimfactory</li>
+		<li>Smuffle.HarvestOrgansPostMortem</li>
+		<li>Mlie.AutopsyTable</li>
 	</loadAfter>
 	<description><![CDATA[<b>ABOUT</b>
 	
-Adds a machine which can perform autopsies. It works quicker than a human doctor and never needs to take a break; not only that, it will even butcher the corpse when it has finished.
+Adds a machine which can perform autopsies. It works quicker than a human doctor - even faster if you overclock it - and never needs to take a break; not only that, it will even butcher the corpse when it has finished.
+
+<b><color="#FF0000">IMPORTANT NOTICE!</color></b>
+
+In order for this mod to actually do anything, you <i>must</i> have one of the following mods which feature recipes that involve performing autopsies:
+
+* Harvest Organs Post Mortem
+* AutopsyTable (Continued)
+* Extended Bioengineering for VFE Insectoids
 
 <b>CREDITS</b>
 

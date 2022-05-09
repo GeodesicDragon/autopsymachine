@@ -50,6 +50,9 @@
         <rangeType>ProjectRimFactory.Common.RectRange</rangeType>
       </li>
     </comps>
+    <recipes>      <!-- Populated depending on which autopsy mod you are using -->
+
+    </recipes>
     <inspectorTabs>
 		<li>ProjectRimFactory.Common.ITab_PowerSupply</li>      <!-- Power boost -->
     </inspectorTabs>
@@ -61,9 +64,9 @@
     </researchPrerequisites>
     <modExtensions>
       <li Class="ProjectRimFactory.SAL3.Exposables.AssemblerDefModExtension">
-        <importRecipesFrom>
+        <!--<importRecipesFrom>
 			<li>TableAutopsy</li>
-        </importRecipesFrom>
+        </importRecipesFrom>-->
         <workSpeedBaseFactor>2</workSpeedBaseFactor>
         <drawStatus>true</drawStatus>
         <doEffect>true</doEffect>

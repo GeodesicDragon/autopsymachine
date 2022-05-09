@@ -1,3 +1,10 @@
+Version 2.0.0 (May 9th 2022)
+
+* The mod no longer explicitly requires Harvest Organs Post Mortem, and will instead import recipes from mods that have some kind of autopsy recipe. As of this update, the following mods are supported:
+	* Harvest Organs Post Mortem
+	* AutopsyTable (Continued)
+	* Extended Bioengineering for VFE Insectoids (only the dissection recipe)
+
 Version 1.1.8 (May 7th 2022)
 
 * Updated description to remove joke reference to (my) previous bad art.

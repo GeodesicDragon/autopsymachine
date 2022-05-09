@@ -1,0 +1,14 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>AutopsyTable (Continued)</li>
+		</mods>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/recipes</xpath>
+				<value>
+					<li>AutopsyHumanoid</li>
+					<li>AutopsyHumanoidBrutal</li>
+				</value>
+			</match>
+	</Operation>
+</Patch>
