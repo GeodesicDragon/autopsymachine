@@ -1,3 +1,13 @@
+Version 2.0.7 (May 19th 2022)
+
+* Fixed missing load order check for Extended Bioengineering for VFE Insectoids.
+* Building an autopsy machine no longer requires research.
+* Building an autopsy machine no longer requires steel.
+* Building an autopsy machine now requires 4 robotic arms (was 2).
+* The autopsy machine's work speed can now be overclocked up to 4 times (was 3).
+* The autopsy machine's base work speed has been increased to 2.5 (was 2).
+* The autopsy machine now has an equivalent Medical skill of 20 (was 15). This should ensure that it can perform all imported bills.
+
 Version 2.0.0 (May 9th 2022)
 
 * The mod no longer explicitly requires Harvest Organs Post Mortem, and will instead import recipes from mods that have some kind of autopsy recipe. As of this update, the following mods are supported:
